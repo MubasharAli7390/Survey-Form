@@ -1,4 +1,25 @@
+* {
+    text-align: center;
+}
+
 body {
     background-color: white;
 }
+
+label {
+    display: block;
+    width: 9px;
+}
+
+.form-items {
+    text-align: left;
+}
+
+
+
+.radio-options {
+    display: block;
+}
+
+
 

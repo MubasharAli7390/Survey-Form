@@ -8,9 +8,11 @@
     <h1 id="title">programming Survey Form</h1>
       <p id="description">Help us collect data about Programmers around the world</p>
       <form id="survey-form">
-        <div><label id="name-label">Name<input type="text" id="name" required placeholder=" Enter Your name"/> </label></div>
-        <div><label id="email-label">Email<input type="email" id="email" required placeholder=" Enter Your Email"/> </label></div>
-        <div><label id="number-label">Age<input type="number" id="number"  min="13" max="120"required placeholder=" Enter your age"/> </label></div>
+       <div class="form-items">
+        <label id="name-label">Name</label>
+        <input type="text" id="name" required placeholder=" Enter your name"/>
+        </div>
+        <div class="form-items"
        <p>Select your favourate tech stack</p>
         <select id="dropdown">
           <option>select one</option>
@@ -20,9 +22,9 @@
           <option>MEVN</option>
           <option>ASP.NET</option>
         </select>
-       <p>Did you study programming at a university?</p>
+      <p>Did you study programming at a university?</p>
        <div></div><input type="radio" value="yes" name="curriculum"> Yes </div>
-       <div></div><input type="radio" value="no" name="curriculum"> No   </div>
+      <div></div><input type="radio" value="no" name="curriculum"> No   </div>
        <p>Select fields that you've worked in</p>
        <p><input type="checkbox" value="Responsive Web Design"/> FrontEnd Development</p>
        <p><input type="checkbox" value="Javascript Algorithams & Data Structures"/> Backebd Development
@@ -32,9 +34,12 @@
        <p><input type="checkbox" value="Data Analysis"/> Data Analysis</p>
        <p><input type="checkbox" value="Information Security"/> Information Security</p>
        <p><input type="checkbox" value="Machine Learning with Python"/> Machine Learning</p>
+      
        <p>tell us more about your programming experiance</p>
        <textarea placeholder="tell us here"></textarea>
        <input type="submit" id="submit">
+      
+       
 
 
 
