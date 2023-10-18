@@ -1,25 +1,62 @@
-* {
+h1, p {
     text-align: center;
-}
+    
+    }
 
 body {
-    background-color: white;
-}
+    background-color: lightyellow;
+    
 
+}
+    
+form {
+    max-width: 580px;
+    margin: 50px auto;
+    padding: 30px 30px;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: white
+    }
+ 
 label {
     display: block;
-    width: 9px;
+    margin-top: 8px;
+    margin-bottom: 1px;
+    }
+
+.form-control {
+   text-align: left;
+   }
+
+#name , #email, #number, textarea, select, submit {
+    width: 100%;
+    height: 2rem;
+   }
+
+select {
+    height: 2.5rem;
+    background-color: white;
+   }
+
+textarea {
+    height: 100px;
+   }
+
+input {
+    font-size: 1.25rem;
+   }
+
+#submit {
+    height: 2.5rem;
+    width: 101.5%;
 }
 
-.form-items {
-    text-align: left;
-}
+
+
+ 
 
 
 
-.radio-options {
-    display: block;
-}
 
 
 
